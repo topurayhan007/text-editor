@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>T-Editor</title>
 
+    <link rel="icon" type="images/x-icon" href="icon.svg" />
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -15,7 +17,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="bg-gray-100">
+  <body class="bg-teal-50">
     <!-- <header>
       <h1
         class="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600 text-5xl font-bold text-center m-12"
@@ -30,7 +32,7 @@
         >
           <!--Container -->
           <div
-            class="grid md:grid-cols-3 gap-5 md:gap-0 bg-gradient-to-r from-[#0D142F] to-[#152049] rounded-t-xl rounded-b-none px-10 md:px-8 lg:px-12 py-8 font-bold text-white"
+            class="grid md:grid-cols-3 gap-5 md:gap-0 bg-gradient-to-r from-purple-800 via-pink-600 to-indigo-700 rounded-t-xl rounded-b-none px-10 md:px-8 lg:px-12 py-6 font-bold text-white"
           >
             <!-- Tab header -->
             <div
@@ -59,7 +61,7 @@
                 id="font-size-field"
                 class="w-12 text-xl text-[#152049] font-semibold rounded pl-1"
               />
-              <span id="capitalize-btn" class=""> aA </span>
+              <button id="capitalize-btn">aA</button>
 
               <input
                 type="color"
