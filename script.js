@@ -109,3 +109,13 @@ document
 // font-family: 'Poppins', sans-serif;
 // font-family: 'Roboto', sans-serif;
 // font-family: 'Work Sans', sans-serif;
+// font-family: 'Fira Code', monospace;
+
+// Font-Chooser function
+document.getElementById("font-chooser").addEventListener("change", function () {
+  const fontChooser = document.getElementById("font-chooser");
+  console.log(fontChooser.options[fontChooser.selectedIndex].value);
+  // if (fontChooser.options[fontChooser.selectedIndex].value === "poppins")
+  textArea.style.fontFamily =
+    fontChooser.options[fontChooser.selectedIndex].value;
+});
